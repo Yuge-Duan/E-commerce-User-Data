@@ -1,3 +1,5 @@
 # E-commerce-User-Data
-SELECT *
-FROM ds1
+SELECT country, buyers
+FROM ds2
+ORDER BY buyers DESC
+LIMIT 10;
